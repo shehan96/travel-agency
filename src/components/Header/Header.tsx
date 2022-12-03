@@ -10,6 +10,7 @@ const Header = () => {
       position='absolute'
       width={'100%'}
     >
+      {/** test */}
       <Box>
         {/** mobile view toogle button */}
         {/** large screen logo */}
@@ -23,9 +24,7 @@ const Header = () => {
           <ListItem padding={'35px 24px 35px 10px'}>FAQ</ListItem>
           <ListItem padding={'35px 24px 35px 10px'}>Contact Us</ListItem>
           <Menu>
-            <MenuButton as={Button}>
-              Actions
-            </MenuButton>
+            <MenuButton as={Button}>Actions</MenuButton>
             <MenuList>
               <MenuItem>Download</MenuItem>
               <MenuItem>Create a Copy</MenuItem>
